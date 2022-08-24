@@ -16,3 +16,13 @@ What we want to achieve in the final website:
 | DELETE      | /places/:id | Delte a particular place      |
 | POST        | /places/:id/rant | Create a rant (comment) about a particular place      |
 | DELETE      | /places/:id/rant/:rantId | Delete a rant (comment) about a particular place      |
+
+
+Restaurants:
+Name, City, State, Cuisine, Pic
+
+•Asian Bay, Brooklyn, NY
+•Masakari, Brooklyn, NY
+•Roll 'N Roaster, Brooklyn, NY
+•Opera, Brooklyn, NY
+•Chick 'fil A, New York, NY
