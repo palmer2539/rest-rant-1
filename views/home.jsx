@@ -1,15 +1,17 @@
 const React = require('react');
 const Def = require('./default');
 
-function home () {
-  return(
+function home() {
+  return (
     <Def>
       <main>
         <h1>HOME</h1>
+        <a href="/places">
+          <button className="btn-primary">Places page</button>
+        </a>
       </main>
     </Def>
-  )
+  );
+};
 
-}
-
-module.exports = home
+module.exports = home;

@@ -31,14 +31,10 @@ router.get('/', (req, res) => {
     state: 'New York',
     cuisines: 'American',
     pic: 'https://media.newyorker.com/photos/5acfd64e51fedf7258aa39a6/2:2/w_2656,h_2656,c_limit/Piepenbring-Chik-fil-A.jpg'
-  }]
-  res.render('places/index', {places})
-})
-
-router.get('/', (req, res) => {
-  res.render('places/edit')
-})
-  
-
+  }];
+  console.log('loading places');
+  res.render('places/index', {places});
+  console.log('loaded places')
+});
 
 module.exports = router;
